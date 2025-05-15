@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <title>Jour 5 - Photos de la Corse</title>
+    <link rel="stylesheet" href="css/stylesheet.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href='../index.html'>
+        <img src="../Image/Logo.png" alt="Logo" class="logo">
+        </a>
+        <h1>Photos de la Corse au cinquième jour</h1>
+        <input type="text" id="searchInput" placeholder="Entrez un mot clé...">
+        <button onclick="searchKeyword()">🔎</button>
+    </header>
+    <!-- Carrousel d'images -->
+    <div class="carousel" id="image-carousel">
+        <button class="prev">&#10094;</button>
+        <div class="carousel-track">
+            <img src="../Image/Jours_1/Image_1.jpg" alt="Plage corse">
+            <img src="../Image/Jours_1/Image_2.jpg" alt="Village corse">
+            <img src="../Image/Jours_1/Image_3.jpg" alt="Montagne corse">
+            <img src="../Image/Jours_1/Image_4.jpg" alt="Plage corse">
+            <img src="../Image/Jours_1/Image_5.jpg" alt="Village corse">
+            <img src="../Image/Jours_1/Image_6.jpg" alt="Montagne corse">
+            <img src="../Image/Jours_1/Image_7.jpg" alt="Plage corse">
+            <img src="../Image/Jours_1/Image_8.jpg" alt="Village corse">
+            <img src="../Image/Jours_1/Image_9.jpg" alt="Montagne corse">
+            <img src="../Image/Jours_1/Image_10.jpg" alt="Plage corse">
+        </div>
+        <button class="next">&#10095;</button>
+    </div>
+    <!-- Carrousel de vidéos -->
+    <h1>Vidéos du jour</h1>
+    <div class="carousel" id="video-carousel">
+        <button class="prev">&#10094;</button>
+        <div class="carousel-track">
+            <video controls width="100%">
+                <source src="../Image/Jours_1/Video_1.mp4" type="video/mp4">
+            </video>
+            <video controls width="100%">
+                <source src="../Image/Jours_1/Video_2.mp4" type="video/mp4">
+            </video>
+            <video controls width="100%">
+                <source src="../Image/Jours_1/Video_3.mp4" type="video/mp4">
+            </video>
+        </div>
+        <button class="next">&#10095;</button>
+    </div>
+    <!-- Inclusion correcte du script JS -->
+    <script src="js/style.js"></script>
+</body>
+</html>
